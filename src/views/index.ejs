@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        img.hero {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://picsum.photos/1200/600?random=1" alt="Hero Image" class="hero">
+        <h1>Welcome to the Tennis Store!</h1>
+        <a href="/products">View Products</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* Alinea el contenido al inicio del contenedor verticalmente */
+    min-height: 100vh;
+    /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* Alinea el contenido al inicio del contenedor verticalmente */
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    /* Márgenes superiores para separar el contenedor del borde superior */
+    max-width: 1200px;
+    /* Limita el ancho del contenedor para evitar que sea demasiado ancho en pantallas grandes */
+    width: 100%;
+}
+
+.product-list {
+    flex: 3;
+    padding-right: 20px;
+    margin-top: 40px;
+    /* Añade margen superior para separar del título */
+}
+
+.cart {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+    /* Añade margen superior para separar del título */
+}
+
+h1 {
+    text-align: center;
+    margin: 0px 0;
+    /* Márgenes superior e inferior para el título */
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin: 10;
+}
+
+li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
